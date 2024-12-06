@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @kassirhussein
-- 👀 I’m interested in Bioinformatics
-- 🌱 I’m currently learning R 
-- 💞️ I’m looking to collaborate on genomic projects
+- 👀 I’m interested in Bioinformatics.
+- 🌱 I’m sharpening my R experience.
+- 💞️ I’m looking to collaborate on genomic projects.
 - 📫 How to reach me husseinkassir1@gmail.com
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: ...
