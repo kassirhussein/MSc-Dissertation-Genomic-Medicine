@@ -38,18 +38,3 @@ ggplot(agg_data, aes(x = XD, y = XR, color = Cluster)) +
 
 
 print(agg_data)
-
-##
-
-# MECP2 WORK --------------------------------------------------------------
-
-
-pivoted_data_moi_mecp2<- data %>%
-  group_by(Diagnosed.Gene, HPO.terms.s.) %>%
-  filter(`Diagnosed.Gene`== "MECP2") %>%
-  summarise(
-    XD = sum(n[MOI == "_XD"], na.rm = TRUE),
-    XR = sum(n[MOI == "_XR"], na.rm = TRUE),
-  )  %>%
-  filter(!(XD == 0 & XR == 0))
-
