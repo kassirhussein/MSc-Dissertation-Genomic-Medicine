@@ -14,7 +14,6 @@ genopheno_genes_disease <- genopheno_genes %>%
   mutate(percentage_disease = (n.x/n.y)*100) %>%
   select(1,2,6)
 
-#export_1
 
 
 data <- data.frame(genopheno_genes_disease)
